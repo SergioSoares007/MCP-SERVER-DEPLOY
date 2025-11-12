@@ -1,10 +1,11 @@
 # Installation Steps
 
-To install this mcp server, tun the following command
+To install the `add_tool` MCP server, run the following command:
 
+```json
 {
   "mcpServers": {
-    "server": {
+    "add_tool": {
       "command": "uvx",
       "args": [
         "--from",
@@ -14,3 +15,6 @@ To install this mcp server, tun the following command
     }
     }
   }
+```
+
+This will fetch and set up the `mcp-server` from the specified GitHub repository.
